@@ -1,0 +1,91 @@
+
+/*flex box designe*/
+.flex-container{
+	background-color: tomato;
+	font-size: 30px;
+	display: flex;
+	height: 300px;
+	/*flex-wrap: wrap-reverse;*/
+	/*flex-direction: column-reverse;*/
+	flex-flow: wrap-reverse row;
+	justify-content:center; 
+	/*justify-content:space-between; */
+	/*justify-content:space-around; */
+	/*align-items: center;*/
+	align-items: center;
+
+
+
+
+}
+
+.flex-container > div{
+
+	margin: 20px;
+	padding: 10px;
+	background-color: white;
+	color: green;
+
+}
+
+/*Grid layout*/
+
+
+.grid-lay{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	/*grid-template-rows: 120px 300px;*/
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+	background-color: green;
+	/*justify-content: center;*/
+}
+
+.grid-lay >div{
+	background-color: #ff67ee;
+	border:1px solid red;
+	/*margin: 10px;*/
+	padding: 5px;
+
+
+
+
+}
+
+
+
+.item1{
+	/*grid-column-start: 1;*/
+	/*grid-column-end:3;*/
+
+	grid-column: 1/3
+}
+
+#overflow{
+	width: 200px;
+	height: 100px;
+	background-color: pink;
+	border:2px solid green;
+	/*overflow: visible;*/
+	/*overflow: hidden;*/
+	/*overflow: scroll;*/
+	overflow: auto;
+}
+
+
+.tooltip .tooltip-text{
+	width: 300px;
+	background-color: green;
+	border:2px solid red;
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+}
+
+.tooltip:hover .tooltip-text{
+	visibility: visible;
+}
+

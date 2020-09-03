@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		box & opacity
+
+	</title>
+
+		<style type="text/css">
+			
+			.div1{
+				width: 50%;
+				height: 350px;
+				background-color: green;
+				float: left;
+				padding: 5px;
+				box-sizing: border-box;
+				/*position: fixed;*/
+			}
+
+			.div2{
+				width: 50%;
+				height: 350px;
+				background-color: red;
+				float: left;
+				/*position: fixed;*/
+				/*box-sizing: content-box;*/
+			}
+
+			img{
+				width: 300px;
+				height: 250px;
+				opacity: 0.5;
+			}
+
+			img:hover{
+				opacity: 1;
+			}
+
+
+			table{
+				border:2px solid green;
+				width: 100%;
+				border-collapse: collapse;   
+
+			}
+
+			th{
+				background-color: green;
+				height: 30px;
+			}
+
+			
+
+			th,td{
+				border:2px solid green;
+				text-align: center;
+				padding: 5px;
+				
+			}
+
+			
+
+
+			tr:nth-child(even){
+				background-color: gray;
+			}
+
+			tr:nth-child(odd)
+			{
+				background-color: gold;
+			}
+
+			tr:hover{
+				background-color: red;
+			}
+
+
+
+			textarea{
+				width: 200px;
+				height: 150px;
+				border:2px solid green;
+				resize: none;
+			}
+
+			input[type="button"]{
+				width: 150px;
+				height: 40px;
+				color: red;
+				border-radius: 20px;
+
+			}
+			
+
+
+			select{
+				padding: 10px;
+				border-radius: 20px;
+				background-color: tomato;
+				color: green;
+
+				}
+
+				textarea:hover{
+					/*background-color: white;*/
+					width: 500px;
+					height: 300px;
+					background-image: linear-gradient(to right, red,pink,green);
+				}
+
+				select:hover{
+					width: 200px;
+					height: 150;
+					background-image: linear-gradient(to left,green,tomato,white);
+				}
+
+				input[type="button"]:hover{
+					width: 150px;
+					height: 50px;
+					background-image: radial-gradient(circle, pink,green,red);
+
+				}
+
+
+
+				.tt{
+					padding: 10px;
+					font-size: 15px;
+					font-weight: bold;
+					color: green;
+					width: 150px;
+					transition: width 90s ease-in-out;
+
+				}
+
+
+				.tt:focus{
+					background-color: red;
+					width: 100%;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</style>
+
+</head>
+
+<body>
+
+
+
+
+
+	<div class="div1">
+			<p> Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+			To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.
+			Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme.
+		 </p>
+	</div>
+
+	<div class="div2">
+		<p> Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+		To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.
+		Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme.
+	 </p>
+</div>
+<br/><br/>
+
+<img src="img/sam/samiul.jpg">
+
+<br/><br/>
+
+<table class="tb">
+
+	<tr class="tr">
+		<th>Roll</th>
+		<th>Name</th>
+		<th>GPA</th>
+		<th>Address</th>
+		<th>Phone</th>
+		
+
+	</tr>
+
+	<tr>
+		<td>1</td>
+		<td>Samiul</td>
+		<td>87.909</td>
+		<td>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want</td>
+		<td>98897878988</td>
+		
+
+	</tr>
+
+
+	<tr>
+		<td>2</td>
+		<td>Samiul</td>
+		<td>87.909</td>
+		<td>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want</td>
+		<td>98897878988</td>
+		
+		
+	</tr>
+
+	<tr>
+		<td>3</td>
+		<td>Samiul</td>
+		<td>87.909</td>
+		<td>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want</td>
+		<td>98897878988</td>
+		
+		
+	</tr>
+
+	<tr>
+		<td>4</td>
+		<td>Samiul</td>
+		<td>87.909</td>
+		<td>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want</td>
+		<td>98897878988</td>
+		
+		
+	</tr>
+
+	<tr>
+		<td>5</td>
+		<td>Samiul</td>
+		<td>87.909</td>
+		<td>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want</td>
+		<td>98897878988</td>
+		
+		
+	</tr>
+
+	<tr>
+		<td>6 </td>
+		<td>Samiul</td>
+		<td>87.909</td>
+		<td>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want</td>
+		<td>98897878988</td>
+		
+		
+	</tr>
+
+
+
+
+</table>
+
+
+
+<textarea>
+	
+	<input type="text" name="tt" cols="10" row="20">
+</textarea>
+<input type="button" value="Send your Commend">
+
+<select>
+	<option>samiul</option>
+	<option>C programming</option>
+	<option>C++ programming</option>
+	<option>JS programming</option>>
+	<option>Java programming</option>>
+	<option>C# programming</option>>
+
+
+</select>
+
+<br/>
+
+<label for="First Name ">First Name</label>
+<input type="text" name="t" placeholder="First name" maxlength="12" class="tt">
+<br/><br/>
+<label for="lirst Name ">Last Name</label>
+<input type="text" name="t" placeholder="Last name" maxlength="12" class="tt">
+
+
+<br/><br/>
+
+
+
+
+
+
+
+<div class="gallery">
+  <!-- <a target="_blank" href="img/sam(1).jpg"> -->
+    <img src="img/sam(1).jpg" alt="Cinque Terre" width="600" height="400">
+  <!-- </a> -->
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
