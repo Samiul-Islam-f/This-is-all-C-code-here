@@ -1,0 +1,320 @@
+	*body{
+		box-sizing: border-box;
+	}
+
+	body{
+		margin: 0px;
+		padding: 0px;
+		background-color: #eeffee;
+	}
+
+
+
+
+.nav{
+			background-color: #40868b;
+			padding: 1% 7%;
+			text-align: left;
+			min-width: 100%;
+			height: 42px;
+			position: fixed;
+
+
+		}
+
+		.nav a{
+			color: white;
+			padding: 10px 20px;
+			text-decoration: none;
+			font-size: 1.2rem;
+			cursor: pointer;
+
+		}
+
+		.dropdown-container{
+			display: inline;
+			position: relative;
+
+
+		}
+
+		.dropdown-contant{
+			position: absolute;
+			top: 30px;
+			right: 0px;
+			background-color: #40868b;
+			text-align: left;
+			min-width: 100px;
+			display: none;
+
+
+		}
+
+		.dropdown-contant a{
+			display: block;
+			font-size: 1.1rem;
+		}
+
+		.dropdown-container:hover .dropdown-contant{
+			display: block;
+		}
+
+		.dropdown-contant:hover a{
+			color: tomato;
+
+		}
+
+
+		.image{
+			min-width:100%;
+			height: 250px;
+
+		}
+
+
+		.header-img{
+			width: 50px;
+			height: 50px;
+			display: inline;
+			float: left;
+			border: 2px solid red;
+			border-radius: 40px;
+			border-bottom-color: yellow;
+			border-top-color: white;
+		}
+
+
+
+
+
+
+
+
+		.HOME{
+				width: 100%;
+				height: 300px;
+				background-image: url(slider-image3.jpg);
+				
+
+			}
+
+
+			.HOME>h2{
+				margin-top: 0px;
+				text-align: center;
+				font-weight: bold;
+				color: brown;
+				display: grid;
+				justify-content: center;
+				padding: 140px;
+				font-size: 40px;
+
+			}
+
+
+
+
+
+
+
+		h3{
+			border:5px;
+			border-style: double;
+			border-color: green;
+			display: inline;
+			color: tomato;
+			margin: 20px;
+			padding: 10px;
+			border-radius: 50px;
+			border-style: ridge;
+			border-top-color: red;
+			border-left-color: yellow;
+			border-right-color: pink;
+			
+		}
+
+
+
+		h3:hover{
+			/*text-decoration:hidden;*/
+			visibility: hidden;
+			color: red;
+			background-color: skyblue;
+		}
+
+		span{
+			color: black;
+			opacity: 0.4;
+
+		}
+
+		span:hover{
+			opacity: 1;
+		}
+
+		table{
+			border:3px solid red;
+			width: 40%;
+			border-collapse: collapse;
+			box-sizing: border-box;
+			float: right;
+			
+
+
+		}
+
+
+
+		.sc{
+			width: 300px;
+			height:300px;
+			border:3px solid pink;
+			float: right;
+			/*background-image: radial-gradient(circle, green,yellow,red,black);*/
+
+			background-color: black;
+			margin: 20px;
+			padding: 20px;
+			/*position: relative;*/
+			overflow: auto;
+
+		}
+
+		.submit{
+			color: red;
+			/*position: absolute;*/
+			float: right;
+			background-color: rgb(67,89,34);
+			margin: 20px;
+			padding: 10px;
+			border:3px solid white;
+			border-radius: 30px;
+
+		}
+
+		.text{
+			margin: 10px;
+			padding: 10px;
+			color: green;
+			letter-spacing: 4px;
+
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/*footer style start here */
+		.for{
+			/*width: 100%;
+			height: 150px;
+			background-color: black;
+*/
+	background-color: tomato;
+	font-size: 30px;
+	display: flex;
+	height: 100px;
+	width: 100%;
+	/*flex-wrap: wrap-reverse;*/
+	/*flex-direction: column-reverse;*/
+	flex-flow: wrap-reverse row;
+	justify-content:center; 
+	/*justify-content:space-between; */
+	/*justify-content:space-around; */
+	/*align-items: center;*/
+	align-items: center;
+
+
+
+		}
+
+
+
+
+		.aa{
+			text-decoration:none;
+			text-align: center;
+			font-weight: bolder;
+			color: white;
+			
+		}
+
+		.d1, .d2, .d3, .d4{
+
+				border:2px solid green;
+				display: inline;
+				margin: 20px;
+				padding: 10px;
+				border-radius: 40px;
+				/*border-top: 0px;*/
+				background-color: black;
+
+		}
+
+		 .d1:hover{
+			background-image: radial-gradient(circle, green,yellow,red,black);
+		}
+
+		 .d2:hover{
+			background-image: linear-gradient(to right, green,red,pink,white,black);
+		}
+		 .d3:hover{
+			background-image: radial-gradient(circle, green,yellow,red,black);
+		}
+		 .d4:hover{
+			background-image: linear-gradient(to right, green,red,pink,white,black);
+		}
+
+
+		/*power by samiul */
+
+		#p{
+			max-width: 100%;
+			/*height: 70px;*/
+			background-color:black;
+			text-align: center;
+			font-weight:bolder;
+			/*color: white;*/
+			padding: 10px;
+
+		}
+
+		#p>a{
+			text-decoration:none;
+			color: #40868b;
+
+		}
+
+		#p:hover{
+			background-image: linear-gradient(to right, green,red,pink,white,black);
+		}
